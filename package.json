@@ -38,7 +38,7 @@
   },
 
   "dependencies": {
-    "mocha": "*"
+    "mocha": "https://www.github.com/demmer/mocha/tarball/reporter_options"
   },
 
   "devDependencies": {
