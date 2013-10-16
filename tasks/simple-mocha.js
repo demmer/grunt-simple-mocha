@@ -41,6 +41,10 @@ module.exports = function(grunt) {
           process.on('uncaughtException', h);
       });
 
+      if (errCount !== 0) {
+          grunt.warn(errCount + "/" + mocha_instance.suite.total() + " tests failed.");
+      }
+
       var withoutErrors = (errCount === 0);
       done(withoutErrors);
     });
