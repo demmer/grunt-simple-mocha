@@ -1,7 +1,7 @@
 {
   "name": "grunt-simple-mocha",
   "description": "A simple wrapper for running tests with Mocha.",
-  "version": "0.4.0-jut-2",
+  "version": "0.4.0-jut-3",
   "homepage": "https://github.com/yaymukund/grunt-simple-mocha",
 
   "author": {
@@ -38,7 +38,7 @@
   },
 
   "dependencies": {
-    "mocha": "git+http://www.github.com/demmer/mocha#1.13.0-jut-1"
+    "mocha": "git+http://www.github.com/demmer/mocha#1.18.0-jut-1"
   },
 
   "devDependencies": {
